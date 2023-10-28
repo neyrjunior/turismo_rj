@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+ul > li {
+    margin-right: 10px;
+}
+ul > li > a {
+    text-decoration: none;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: darkgray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sobre {
+    display: flex;
+}
