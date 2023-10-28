@@ -6,20 +6,22 @@
 }
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
-ul {
-    display: flex;
+ul{
     list-style: none;
+    display: flex;
 }
-ul > li {
+ul>li{
     margin-right: 10px;
 }
-ul > li > a {
+ul>li>a{
     text-decoration: none;
 }
-
+ul>li>a:hover{
+    text-decoration: underline;
+}
 .imagens {
     display: flex;
     justify-content: space-around;
@@ -30,4 +32,10 @@ ul > li > a {
 }
 .sobre {
     display: flex;
+}
+.Mural-cliente{
+    background-color: rgb(0, 255, 136);
+    height: 300px;
+    border: solid 5px maroon;
+    margin-top: 20px;
 }
